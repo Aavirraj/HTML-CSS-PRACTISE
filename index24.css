@@ -1,0 +1,61 @@
+body {
+    font-family: "Inter", sans-serif;
+    background-color: #ffe4c4;
+    width: fit-content;
+    height: fit-content;
+  }
+  .blog-card {
+    background-color: rgb(255, 250, 250);
+    min-width: 128px;
+    max-width: 256px;
+    min-height: 128px;
+    border-radius: 10px;
+    margin-bottom: 16px;
+  }
+  .card-img img {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+  .card-content {
+    padding: 0px 16px 16px;
+  }
+  
+  h2 {
+    text-transform: uppercase;
+    margin-bottom: 6.4px;
+    color: grey;
+    font-size: 0.8rem;
+    opacity: 0.5;
+  }
+  h1 {
+    font-size: 1.25rem;
+    margin-bottom: 20px;
+  }
+  
+  .card-body p {
+    opacity: 0.6;
+    font-size: 0.9rem;
+  }
+  
+  .card-body {
+    margin-top: 10%;
+  }
+  
+  .card-footer {
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .card-footer a {
+    order: 1;
+  }
+  
+  .card-footer a {
+    color: rgb(109, 109, 235);
+    text-decoration: none;
+  }
+  
+  .card-footer a:visited {
+    color: rgb(109, 109, 235);
+  }
+  

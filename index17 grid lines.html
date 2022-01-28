@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+    <style></style>
+  </head>
+  <body>
+    <div
+      style="
+        display: grid;
+        grid-template-rows: 8rem 8rem;
+        grid-template-columns: 8rem 8rem 8rem;
+        grid-gap: 10px;
+      "
+    >
+      <div
+        style="
+          background-color: red;
+          grid-gap: 5px;
+          grid-column-start: 1;
+          grid-column-end: 4;
+        "
+      >
+        1
+      </div>
+      <div
+        style="
+          background-color: blue;
+          grid-row-start: 2;
+          grid-gap: 10px;
+          grid-row-end: 4;
+        "
+      >
+        2
+      </div>
+      <div style="background-color: yellow;">3</div>
+      <div style="background-color: black;">4</div>
+      <div
+        style="background-color: cadetblue; grid-row-start: 2; grid-row-end: 5;"
+      >
+        5
+      </div>
+      <div style="background-color: lavender;">6</div>
+    </div>
+  </body>
+</html>
